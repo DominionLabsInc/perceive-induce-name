@@ -1,0 +1,374 @@
+{
+  "experiment": "PERCEIVE-EVAL2",
+  "run_at": "2026-09-17T22:23:46.874345+00:00",
+  "scale": {
+    "categories": 8,
+    "per_category": {
+      "redcircle": {
+        "recall": 1.0,
+        "abstention": 1.0,
+        "false_namings": 0,
+        "n_pos": 3,
+        "n_neg": 3
+      },
+      "bluesquare": {
+        "recall": 1.0,
+        "abstention": 1.0,
+        "false_namings": 0,
+        "n_pos": 3,
+        "n_neg": 3
+      },
+      "greentri": {
+        "recall": 0.667,
+        "abstention": 1.0,
+        "false_namings": 0,
+        "n_pos": 3,
+        "n_neg": 3
+      },
+      "yellowsquare": {
+        "recall": 1.0,
+        "abstention": 1.0,
+        "false_namings": 0,
+        "n_pos": 3,
+        "n_neg": 3
+      },
+      "violetcircle": {
+        "recall": 1.0,
+        "abstention": 1.0,
+        "false_namings": 0,
+        "n_pos": 3,
+        "n_neg": 3
+      },
+      "orangetri": {
+        "recall": 1.0,
+        "abstention": 1.0,
+        "false_namings": 0,
+        "n_pos": 3,
+        "n_neg": 3
+      },
+      "cyansquare": {
+        "recall": 1.0,
+        "abstention": 1.0,
+        "false_namings": 0,
+        "n_pos": 3,
+        "n_neg": 3
+      },
+      "redtri": {
+        "recall": 1.0,
+        "abstention": 1.0,
+        "false_namings": 0,
+        "n_pos": 3,
+        "n_neg": 3
+      }
+    },
+    "induced_rules": {
+      "redcircle": "circle(?X0) \u2227 vivid_red(?X0) \u2192 redcirclecc4d23(?X0)",
+      "bluesquare": "None",
+      "greentri": "None",
+      "yellowsquare": "square(?X0) \u2227 vivid_yellow(?X0) \u2192 yellowsquarecc4d23(?X0)",
+      "violetcircle": "circle(?X0) \u2227 vivid_violet(?X0) \u2192 violetcirclecc4d23(?X0)",
+      "orangetri": "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 orangetricc4d23(?X0)",
+      "cyansquare": "square(?X0) \u2227 vivid_cyan(?X0) \u2192 cyansquarecc4d23(?X0)",
+      "redtri": "triangle(?X0) \u2227 vivid_red(?X0) \u2192 redtricc4d23(?X0)"
+    }
+  },
+  "data_efficiency": {
+    "1": {
+      "rule": null,
+      "refused": "category induction needs >= 2 positive examples; got 1 -- one example is a case, not a generalization",
+      "recall": 0.0,
+      "abstention": 1.0,
+      "false_namings": 0,
+      "n_pos": 3,
+      "n_neg": 3
+    },
+    "2": {
+      "rule": "None",
+      "refused": null,
+      "recall": 0.667,
+      "abstention": 1.0,
+      "false_namings": 0,
+      "n_pos": 3,
+      "n_neg": 3
+    },
+    "3": {
+      "rule": "circle(?X0) \u2227 vivid_red(?X0) \u2192 effcatcc4d233(?X0)",
+      "refused": null,
+      "recall": 1.0,
+      "abstention": 1.0,
+      "false_namings": 0,
+      "n_pos": 3,
+      "n_neg": 3
+    },
+    "4": {
+      "rule": "circle(?X0) \u2227 vivid_red(?X0) \u2192 effcatcc4d234(?X0)",
+      "refused": null,
+      "recall": 1.0,
+      "abstention": 1.0,
+      "false_namings": 0,
+      "n_pos": 3,
+      "n_neg": 3
+    }
+  },
+  "supervision": {
+    "0": {
+      "rule": "None",
+      "body": [],
+      "recall": 0.0,
+      "abstention": 1.0,
+      "false_namings": 0,
+      "n_pos": 3,
+      "n_neg": 2
+    },
+    "1": {
+      "rule": "circle(?X0) \u2192 supcatcc4d231(?X0)",
+      "body": [
+        "circle"
+      ],
+      "recall": 1.0,
+      "abstention": 0.5,
+      "false_namings": 1,
+      "n_pos": 3,
+      "n_neg": 2
+    },
+    "2": {
+      "rule": "circle(?X0) \u2227 vivid_red(?X0) \u2192 supcatcc4d232(?X0)",
+      "body": [
+        "circle",
+        "vivid_red"
+      ],
+      "recall": 1.0,
+      "abstention": 1.0,
+      "false_namings": 0,
+      "n_pos": 3,
+      "n_neg": 2
+    }
+  },
+  "operating_range": {
+    "baseline": {
+      "reported": 3,
+      "shape": 3,
+      "colour": 3,
+      "n": 3
+    },
+    "noise": {
+      "16": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "48": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "96": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "128": {
+        "reported": 3,
+        "shape": 1,
+        "colour": 3,
+        "n": 3
+      },
+      "160": {
+        "reported": 3,
+        "shape": 2,
+        "colour": 3,
+        "n": 3
+      }
+    },
+    "blur": {
+      "9": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "21": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "41": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "61": {
+        "reported": 3,
+        "shape": 2,
+        "colour": 3,
+        "n": 3
+      }
+    },
+    "rotation": {
+      "10": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "30": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "45": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      }
+    },
+    "desaturation": {
+      "1.0": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "0.7": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "0.5": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 0,
+        "n": 3
+      },
+      "0.3": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 0,
+        "n": 3
+      }
+    },
+    "occlusion": {
+      "30": {
+        "reported": 3,
+        "shape": 1,
+        "colour": 3,
+        "n": 3
+      },
+      "55": {
+        "reported": 3,
+        "shape": 1,
+        "colour": 3,
+        "n": 3
+      },
+      "80": {
+        "reported": 2,
+        "shape": 0,
+        "colour": 2,
+        "n": 3
+      }
+    },
+    "apparent_size_px": {
+      "70": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "40": {
+        "reported": 3,
+        "shape": 3,
+        "colour": 3,
+        "n": 3
+      },
+      "20": {
+        "reported": 2,
+        "shape": 2,
+        "colour": 2,
+        "n": 3
+      },
+      "18": {
+        "reported": 2,
+        "shape": 2,
+        "colour": 2,
+        "n": 3
+      },
+      "16": {
+        "reported": 1,
+        "shape": 1,
+        "colour": 1,
+        "n": 3
+      },
+      "12": {
+        "reported": 0,
+        "shape": 0,
+        "colour": 0,
+        "n": 3
+      }
+    },
+    "minimum_blob_area": {
+      "default_min_area_frac": 0.01,
+      "lowered_min_area_frac": 0.001,
+      "by_radius": {
+        "20": {
+          "area_pct_of_frame": 1.396,
+          "default_1pct": "circle/vivid_red",
+          "lowered_0p1pct": "circle/vivid_red"
+        },
+        "18": {
+          "area_pct_of_frame": 1.131,
+          "default_1pct": "circle/vivid_red",
+          "lowered_0p1pct": "circle/vivid_red"
+        },
+        "16": {
+          "area_pct_of_frame": 0.894,
+          "default_1pct": null,
+          "lowered_0p1pct": "circle/vivid_red"
+        },
+        "12": {
+          "area_pct_of_frame": 0.503,
+          "default_1pct": null,
+          "lowered_0p1pct": "square/vivid_red"
+        },
+        "8": {
+          "area_pct_of_frame": 0.223,
+          "default_1pct": null,
+          "lowered_0p1pct": "square/vivid_red"
+        },
+        "6": {
+          "area_pct_of_frame": 0.126,
+          "default_1pct": null,
+          "lowered_0p1pct": "circle/vivid_red"
+        },
+        "4": {
+          "area_pct_of_frame": 0.056,
+          "default_1pct": null,
+          "lowered_0p1pct": null
+        }
+      }
+    }
+  },
+  "overall": {
+    "images_taught": 149,
+    "perception_shape_accuracy": 1.0,
+    "perception_colour_accuracy": 1.0,
+    "scale_mean_recall": 0.958,
+    "scale_mean_abstention": 1.0,
+    "scale_false_namings": 0,
+    "model_calls": 0,
+    "median_ms": {
+      "perceive_ms": 28.0,
+      "teach_ms": 1015.4,
+      "induce_ms": 458.3,
+      "name_ms": 151.2
+    },
+    "wall_clock_s": 258.1
+  }
+}

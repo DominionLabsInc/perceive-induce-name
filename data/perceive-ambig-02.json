@@ -1,0 +1,2586 @@
+{
+  "experiment": "PERCEIVE-AMBIG-02",
+  "run_at": "2026-09-17T22:46:21.616257+00:00",
+  "round_cap": 4,
+  "cases": [
+    {
+      "category": "red circle",
+      "repeat": 0,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580cire(?X0)",
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "blue",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)",
+              "small(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is circle and vivid_red but not small is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "tiny",
+                "vivid_red"
+              ],
+              "labelled": "positive"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 2,
+        "rule": "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580cire(?X0)",
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "red",
+              "perceived": [
+                "large",
+                "triangle",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580cire(?X0)",
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "yellow",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_yellow"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)",
+              "small(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is circle and vivid_red but not small is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "blue",
+              "perceived": [
+                "medium",
+                "triangle",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)",
+              "small(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is circle and vivid_red but not small is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "violet",
+              "perceived": [
+                "tiny",
+                "triangle",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)",
+              "small(?X0) \u2227 vivid_red(?X0) \u2192 a9896580cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is circle and vivid_red but not small is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "blue square",
+      "repeat": 0,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 square(?X0) \u2192 a9896580sqbl(?X0)",
+              "small(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and square but not vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "square",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "square",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_blue but not square is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "blue",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 3,
+        "rule": "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "square",
+              "colour": "red",
+              "perceived": [
+                "large",
+                "square",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "cyan",
+              "perceived": [
+                "circle",
+                "medium",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "square",
+              "colour": "cyan",
+              "perceived": [
+                "medium",
+                "square",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "circle",
+              "colour": "orange",
+              "perceived": [
+                "circle",
+                "large",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896580sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "green triangle",
+      "repeat": 0,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not triangle and vivid_green is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896580trgr(?X0)",
+              "small(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_green but not triangle is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "green",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_green"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 3,
+        "rule": "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896580trgr(?X0)",
+              "small(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "yellow",
+              "perceived": [
+                "circle",
+                "medium",
+                "vivid_yellow"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896580trgr(?X0)",
+              "small(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "cyan",
+              "perceived": [
+                "large",
+                "triangle",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896580trgr(?X0)",
+              "small(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "square",
+              "colour": "blue",
+              "perceived": [
+                "dominant",
+                "square",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896580trgr(?X0)",
+              "small(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896580trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_green is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "yellow square",
+      "repeat": 0,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 square(?X0) \u2192 a9896580sqye(?X0)",
+              "small(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and square but not vivid_yellow is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "square",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "square",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_yellow but not square is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "yellow",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_yellow"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 3,
+        "rule": "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "square",
+              "colour": "cyan",
+              "perceived": [
+                "small",
+                "square",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_yellow but not square is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "square",
+              "colour": "red",
+              "perceived": [
+                "dominant",
+                "square",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_yellow but not square is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "violet",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_yellow but not square is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "cyan",
+              "perceived": [
+                "large",
+                "triangle",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896580sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_yellow but not square is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "violet circle",
+      "repeat": 0,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580civi(?X0)",
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)",
+              "small(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is circle and vivid_violet but not small is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "violet",
+              "perceived": [
+                "circle",
+                "tiny",
+                "vivid_violet"
+              ],
+              "labelled": "positive"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 2,
+        "rule": "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580civi(?X0)",
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "square",
+              "colour": "orange",
+              "perceived": [
+                "dominant",
+                "square",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580civi(?X0)",
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "square",
+              "colour": "orange",
+              "perceived": [
+                "medium",
+                "square",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580civi(?X0)",
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "orange",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)",
+              "small(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is circle and vivid_violet but not small is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "blue",
+              "perceived": [
+                "medium",
+                "triangle",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)",
+              "small(?X0) \u2227 vivid_violet(?X0) \u2192 a9896580civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is circle and vivid_violet but not small is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "orange triangle",
+      "repeat": 0,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not triangle and vivid_orange is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_orange is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896580tror(?X0)",
+              "small(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_orange is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_orange but not triangle is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "orange",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 3,
+        "rule": "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_orange is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "orange",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896580tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_orange is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "orange",
+              "perceived": [
+                "medium",
+                "triangle",
+                "vivid_orange"
+              ],
+              "labelled": "positive"
+            },
+            "hypotheses": [
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 2,
+        "rule": "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896580tror(?X0)"
+      }
+    },
+    {
+      "category": "cyan square",
+      "repeat": 0,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 square(?X0) \u2192 a9896580sqcy(?X0)",
+              "small(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and square but not vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "square",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "square",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_cyan but not square is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "cyan",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 3,
+        "rule": "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "cyan",
+              "perceived": [
+                "medium",
+                "triangle",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "square",
+              "colour": "violet",
+              "perceived": [
+                "large",
+                "square",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "blue",
+              "perceived": [
+                "large",
+                "triangle",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "orange",
+              "perceived": [
+                "large",
+                "triangle",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896580sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "red triangle",
+      "repeat": 0,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not triangle and vivid_red is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896580trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "blue",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580trre(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 2,
+        "rule": "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580trre(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "square",
+              "colour": "green",
+              "perceived": [
+                "large",
+                "square",
+                "vivid_green"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "medium",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "square",
+              "colour": "green",
+              "perceived": [
+                "square",
+                "tiny",
+                "vivid_green"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896580trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "yellow",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_yellow"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_red(?X0) \u2192 a9896580trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896580trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_red but not triangle is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "red circle",
+      "repeat": 1,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581cire(?X0)",
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "blue",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581cire(?X0)",
+              "small(?X0) \u2227 vivid_red(?X0) \u2192 a9896581cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is circle and vivid_red but not small is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "tiny",
+                "vivid_red"
+              ],
+              "labelled": "positive"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581cire(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 2,
+        "rule": "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581cire(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581cire(?X0)",
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "yellow",
+              "perceived": [
+                "medium",
+                "triangle",
+                "vivid_yellow"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581cire(?X0)",
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "blue",
+              "perceived": [
+                "circle",
+                "tiny",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581cire(?X0)",
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "yellow",
+              "perceived": [
+                "circle",
+                "large",
+                "vivid_yellow"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581cire(?X0)",
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "orange",
+              "perceived": [
+                "large",
+                "triangle",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581cire(?X0)",
+              "circle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581cire(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "blue square",
+      "repeat": 1,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 square(?X0) \u2192 a9896581sqbl(?X0)",
+              "small(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and square but not vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "square",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "square",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_blue but not square is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "blue",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 3,
+        "rule": "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "square",
+              "colour": "cyan",
+              "perceived": [
+                "dominant",
+                "square",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "violet",
+              "perceived": [
+                "medium",
+                "triangle",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "yellow",
+              "perceived": [
+                "circle",
+                "tiny",
+                "vivid_yellow"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "square",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "square",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)",
+              "square(?X0) \u2227 vivid_blue(?X0) \u2192 a9896581sqbl(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_blue but not square is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "green triangle",
+      "repeat": 1,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not triangle and vivid_green is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896581trgr(?X0)",
+              "small(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_green but not triangle is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "green",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_green"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 3,
+        "rule": "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "orange",
+              "perceived": [
+                "tiny",
+                "triangle",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "cyan",
+              "perceived": [
+                "large",
+                "triangle",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "large",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_green is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "square",
+              "colour": "violet",
+              "perceived": [
+                "dominant",
+                "square",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581trgr(?X0)",
+              "triangle(?X0) \u2227 vivid_green(?X0) \u2192 a9896581trgr(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_green is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "yellow square",
+      "repeat": 1,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 square(?X0) \u2192 a9896581sqye(?X0)",
+              "small(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and square but not vivid_yellow is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "square",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "square",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_yellow but not square is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "yellow",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_yellow"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 3,
+        "rule": "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "yellow",
+              "perceived": [
+                "medium",
+                "triangle",
+                "vivid_yellow"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "tiny",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "square",
+              "colour": "violet",
+              "perceived": [
+                "dominant",
+                "square",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "red",
+              "perceived": [
+                "large",
+                "triangle",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqye(?X0)",
+              "square(?X0) \u2227 vivid_yellow(?X0) \u2192 a9896581sqye(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "violet circle",
+      "repeat": 1,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581civi(?X0)",
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)",
+              "small(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is circle and vivid_violet but not small is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "violet",
+              "perceived": [
+                "circle",
+                "tiny",
+                "vivid_violet"
+              ],
+              "labelled": "positive"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 2,
+        "rule": "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581civi(?X0)",
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "square",
+              "colour": "orange",
+              "perceived": [
+                "large",
+                "square",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581civi(?X0)",
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "yellow",
+              "perceived": [
+                "circle",
+                "dominant",
+                "vivid_yellow"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581civi(?X0)",
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "violet",
+              "perceived": [
+                "large",
+                "triangle",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581civi(?X0)",
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "orange",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "circle(?X0) \u2227 small(?X0) \u2192 a9896581civi(?X0)",
+              "circle(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)",
+              "small(?X0) \u2227 vivid_violet(?X0) \u2192 a9896581civi(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is circle and small but not vivid_violet is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "orange triangle",
+      "repeat": 1,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not triangle and vivid_orange is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_orange is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896581tror(?X0)",
+              "small(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_orange is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_orange but not triangle is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "orange",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 3,
+        "rule": "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_orange is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "violet",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_orange but not triangle is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "red",
+              "perceived": [
+                "medium",
+                "triangle",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_orange but not triangle is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "square",
+              "colour": "blue",
+              "perceived": [
+                "medium",
+                "square",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_orange but not triangle is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "circle",
+              "colour": "cyan",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)",
+              "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 a9896581tror(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_orange but not triangle is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "cyan square",
+      "repeat": 1,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 square(?X0) \u2192 a9896581sqcy(?X0)",
+              "small(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and square but not vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "square",
+              "colour": "red",
+              "perceived": [
+                "small",
+                "square",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_cyan but not square is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "cyan",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 3,
+        "rule": "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "orange",
+              "perceived": [
+                "circle",
+                "medium",
+                "vivid_orange"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "violet",
+              "perceived": [
+                "circle",
+                "dominant",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "square",
+              "colour": "green",
+              "perceived": [
+                "dominant",
+                "square",
+                "vivid_green"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "square",
+              "colour": "violet",
+              "perceived": [
+                "small",
+                "square",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)",
+              "square(?X0) \u2227 vivid_cyan(?X0) \u2192 a9896581sqcy(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_cyan but not square is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    },
+    {
+      "category": "red triangle",
+      "repeat": 1,
+      "built": true,
+      "undetermined": true,
+      "request": "an instance that is small but not triangle and vivid_red is accepted by one hypothesis and refused by the other",
+      "targeted": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "circle",
+              "colour": "red",
+              "perceived": [
+                "circle",
+                "small",
+                "vivid_red"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 triangle(?X0) \u2192 a9896581trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and triangle but not vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "blue",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)"
+            ],
+            "determined": true,
+            "request": null
+          }
+        ],
+        "determined_at": 2,
+        "rule": "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)"
+      },
+      "random": {
+        "log": [
+          {
+            "round": 0,
+            "hypotheses": [
+              "small(?X0) \u2192 a9896581trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small but not triangle and vivid_red is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 1,
+            "supplied": {
+              "shape": "triangle",
+              "colour": "cyan",
+              "perceived": [
+                "small",
+                "triangle",
+                "vivid_cyan"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_red but not triangle is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 2,
+            "supplied": {
+              "shape": "circle",
+              "colour": "violet",
+              "perceived": [
+                "circle",
+                "dominant",
+                "vivid_violet"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_red but not triangle is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 3,
+            "supplied": {
+              "shape": "circle",
+              "colour": "blue",
+              "perceived": [
+                "circle",
+                "tiny",
+                "vivid_blue"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_red but not triangle is accepted by one hypothesis and refused by the other"
+          },
+          {
+            "round": 4,
+            "supplied": {
+              "shape": "square",
+              "colour": "green",
+              "perceived": [
+                "medium",
+                "square",
+                "vivid_green"
+              ],
+              "labelled": "negative"
+            },
+            "hypotheses": [
+              "small(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)",
+              "triangle(?X0) \u2227 vivid_red(?X0) \u2192 a9896581trre(?X0)"
+            ],
+            "determined": false,
+            "request": "an instance that is small and vivid_red but not triangle is accepted by one hypothesis and refused by the other"
+          }
+        ],
+        "determined_at": null,
+        "rule": null
+      }
+    }
+  ],
+  "summary": {
+    "inductions_attempted": 16,
+    "inductions_built": 16,
+    "unbuildable": [],
+    "undetermined_at_start": 16,
+    "targeted_closed": 16,
+    "targeted_mean_rounds": 2.62,
+    "random_closed": 1,
+    "random_mean_rounds": 2.0,
+    "images": 232,
+    "catalogue": 448,
+    "wall_clock_s": 308.5
+  }
+}

@@ -1,0 +1,5052 @@
+{
+  "repeats": 2,
+  "conditions": [
+    {
+      "repeat": 0,
+      "arm": "accidental",
+      "category": "red circle",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2192 c91cf280acire(?X0)",
+        "circle(?X0) \u2227 vivid_red(?X0) \u2192 c91cf280acire(?X0)"
+      ],
+      "deciding_request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "accidental",
+      "category": "blue square",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2192 c91cf280asqbl(?X0)",
+        "square(?X0) \u2227 vivid_blue(?X0) \u2192 c91cf280asqbl(?X0)"
+      ],
+      "deciding_request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "accidental",
+      "category": "green triangle",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2227 vivid_green(?X0) \u2192 c91cf280atrgr(?X0)",
+        "triangle(?X0) \u2227 vivid_green(?X0) \u2192 c91cf280atrgr(?X0)"
+      ],
+      "deciding_request": "an instance that is small and vivid_green but not triangle is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "accidental",
+      "category": "yellow square",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2192 c91cf280asqye(?X0)",
+        "square(?X0) \u2227 vivid_yellow(?X0) \u2192 c91cf280asqye(?X0)"
+      ],
+      "deciding_request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "accidental",
+      "category": "violet circle",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2192 c91cf280acivi(?X0)",
+        "circle(?X0) \u2227 vivid_violet(?X0) \u2192 c91cf280acivi(?X0)"
+      ],
+      "deciding_request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "accidental",
+      "category": "orange triangle",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2227 vivid_orange(?X0) \u2192 c91cf280atror(?X0)",
+        "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 c91cf280atror(?X0)"
+      ],
+      "deciding_request": "an instance that is small and vivid_orange but not triangle is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "accidental",
+      "category": "cyan square",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2192 c91cf280asqcy(?X0)",
+        "square(?X0) \u2227 vivid_cyan(?X0) \u2192 c91cf280asqcy(?X0)"
+      ],
+      "deciding_request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "accidental",
+      "category": "red triangle",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2227 vivid_red(?X0) \u2192 c91cf280atrre(?X0)",
+        "triangle(?X0) \u2227 vivid_red(?X0) \u2192 c91cf280atrre(?X0)"
+      ],
+      "deciding_request": "an instance that is small and vivid_red but not triangle is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "clean",
+      "category": "red circle",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "circle(?X0) \u2227 vivid_red(?X0) \u2192 c91cf280ccire(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "clean",
+      "category": "blue square",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "square(?X0) \u2227 vivid_blue(?X0) \u2192 c91cf280csqbl(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "clean",
+      "category": "green triangle",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "triangle(?X0) \u2227 vivid_green(?X0) \u2192 c91cf280ctrgr(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "clean",
+      "category": "yellow square",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "square(?X0) \u2227 vivid_yellow(?X0) \u2192 c91cf280csqye(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "clean",
+      "category": "violet circle",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "circle(?X0) \u2227 vivid_violet(?X0) \u2192 c91cf280ccivi(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "clean",
+      "category": "orange triangle",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 c91cf280ctror(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "clean",
+      "category": "cyan square",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "square(?X0) \u2227 vivid_cyan(?X0) \u2192 c91cf280csqcy(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "arm": "clean",
+      "category": "red triangle",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "triangle(?X0) \u2227 vivid_red(?X0) \u2192 c91cf280ctrre(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "accidental",
+      "category": "red circle",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2192 c91cf281acire(?X0)",
+        "circle(?X0) \u2227 vivid_red(?X0) \u2192 c91cf281acire(?X0)"
+      ],
+      "deciding_request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "accidental",
+      "category": "blue square",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2192 c91cf281asqbl(?X0)",
+        "square(?X0) \u2227 vivid_blue(?X0) \u2192 c91cf281asqbl(?X0)"
+      ],
+      "deciding_request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "accidental",
+      "category": "green triangle",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2227 vivid_green(?X0) \u2192 c91cf281atrgr(?X0)",
+        "triangle(?X0) \u2227 vivid_green(?X0) \u2192 c91cf281atrgr(?X0)"
+      ],
+      "deciding_request": "an instance that is small and vivid_green but not triangle is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "accidental",
+      "category": "yellow square",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2192 c91cf281asqye(?X0)",
+        "square(?X0) \u2227 vivid_yellow(?X0) \u2192 c91cf281asqye(?X0)"
+      ],
+      "deciding_request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "accidental",
+      "category": "violet circle",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2192 c91cf281acivi(?X0)",
+        "circle(?X0) \u2227 vivid_violet(?X0) \u2192 c91cf281acivi(?X0)"
+      ],
+      "deciding_request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "accidental",
+      "category": "orange triangle",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2227 vivid_orange(?X0) \u2192 c91cf281atror(?X0)",
+        "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 c91cf281atror(?X0)"
+      ],
+      "deciding_request": "an instance that is small and vivid_orange but not triangle is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "accidental",
+      "category": "cyan square",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2192 c91cf281asqcy(?X0)",
+        "square(?X0) \u2227 vivid_cyan(?X0) \u2192 c91cf281asqcy(?X0)"
+      ],
+      "deciding_request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "accidental",
+      "category": "red triangle",
+      "status": "multiple_hypotheses",
+      "determined": false,
+      "hypotheses": [
+        "small(?X0) \u2227 vivid_red(?X0) \u2192 c91cf281atrre(?X0)",
+        "triangle(?X0) \u2227 vivid_red(?X0) \u2192 c91cf281atrre(?X0)"
+      ],
+      "deciding_request": "an instance that is small and vivid_red but not triangle is accepted by one hypothesis and refused by the other",
+      "instances": [
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": false,
+          "live_rule_status": "undetermined",
+          "would": {
+            "first_fire": true,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "clean",
+      "category": "red circle",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "circle(?X0) \u2227 vivid_red(?X0) \u2192 c91cf281ccire(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "clean",
+      "category": "blue square",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "square(?X0) \u2227 vivid_blue(?X0) \u2192 c91cf281csqbl(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "clean",
+      "category": "green triangle",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "triangle(?X0) \u2227 vivid_green(?X0) \u2192 c91cf281ctrgr(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_green",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "clean",
+      "category": "yellow square",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "square(?X0) \u2227 vivid_yellow(?X0) \u2192 c91cf281csqye(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_yellow",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "clean",
+      "category": "violet circle",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "circle(?X0) \u2227 vivid_violet(?X0) \u2192 c91cf281ccivi(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "circle",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_violet",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "clean",
+      "category": "orange triangle",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 c91cf281ctror(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_orange",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "clean",
+      "category": "cyan square",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "square(?X0) \u2227 vivid_cyan(?X0) \u2192 c91cf281csqcy(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "square",
+            "large"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_cyan",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "square",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "arm": "clean",
+      "category": "red triangle",
+      "status": "rule_learned",
+      "determined": true,
+      "hypotheses": [
+        "triangle(?X0) \u2227 vivid_red(?X0) \u2192 c91cf281ctrre(?X0)"
+      ],
+      "deciding_request": null,
+      "instances": [
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "small"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "small"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "triangle",
+            "medium"
+          ],
+          "is_member": true,
+          "live_named": true,
+          "live_rule_status": "candidate",
+          "would": {
+            "first_fire": true,
+            "determined_only": true,
+            "unanimity": true
+          }
+        },
+        {
+          "features": [
+            "vivid_red",
+            "circle",
+            "large"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        },
+        {
+          "features": [
+            "vivid_blue",
+            "triangle",
+            "medium"
+          ],
+          "is_member": false,
+          "live_named": false,
+          "live_rule_status": null,
+          "would": {
+            "first_fire": false,
+            "determined_only": false,
+            "unanimity": false
+          }
+        }
+      ]
+    }
+  ],
+  "resolution": [
+    {
+      "category": "red circle",
+      "repeat": 0,
+      "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "square",
+        "colour": "blue",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": false,
+      "targeted_rule": "None",
+      "random_examples_needed": null
+    },
+    {
+      "category": "blue square",
+      "repeat": 0,
+      "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "red",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": false,
+      "targeted_rule": "None",
+      "random_examples_needed": null
+    },
+    {
+      "category": "green triangle",
+      "repeat": 0,
+      "request": "an instance that is small and vivid_green but not triangle is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "green",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": true,
+      "targeted_rule": "triangle(?X0) \u2227 vivid_green(?X0) \u2192 c91cf280atrgr(?X0)",
+      "random_examples_needed": null
+    },
+    {
+      "category": "yellow square",
+      "repeat": 0,
+      "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "red",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": false,
+      "targeted_rule": "None",
+      "random_examples_needed": null
+    },
+    {
+      "category": "violet circle",
+      "repeat": 0,
+      "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "square",
+        "colour": "red",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": false,
+      "targeted_rule": "None",
+      "random_examples_needed": null
+    },
+    {
+      "category": "orange triangle",
+      "repeat": 0,
+      "request": "an instance that is small and vivid_orange but not triangle is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "orange",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": true,
+      "targeted_rule": "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 c91cf280atror(?X0)",
+      "random_examples_needed": null
+    },
+    {
+      "category": "cyan square",
+      "repeat": 0,
+      "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "red",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": false,
+      "targeted_rule": "None",
+      "random_examples_needed": null
+    },
+    {
+      "category": "red triangle",
+      "repeat": 0,
+      "request": "an instance that is small and vivid_red but not triangle is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "red",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": true,
+      "targeted_rule": "triangle(?X0) \u2227 vivid_red(?X0) \u2192 c91cf280atrre(?X0)",
+      "random_examples_needed": null
+    },
+    {
+      "category": "red circle",
+      "repeat": 1,
+      "request": "an instance that is small but not circle and vivid_red is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "square",
+        "colour": "blue",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": false,
+      "targeted_rule": "None",
+      "random_examples_needed": null
+    },
+    {
+      "category": "blue square",
+      "repeat": 1,
+      "request": "an instance that is small but not square and vivid_blue is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "red",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": false,
+      "targeted_rule": "None",
+      "random_examples_needed": null
+    },
+    {
+      "category": "green triangle",
+      "repeat": 1,
+      "request": "an instance that is small and vivid_green but not triangle is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "green",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": true,
+      "targeted_rule": "triangle(?X0) \u2227 vivid_green(?X0) \u2192 c91cf281atrgr(?X0)",
+      "random_examples_needed": null
+    },
+    {
+      "category": "yellow square",
+      "repeat": 1,
+      "request": "an instance that is small but not square and vivid_yellow is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "red",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": false,
+      "targeted_rule": "None",
+      "random_examples_needed": null
+    },
+    {
+      "category": "violet circle",
+      "repeat": 1,
+      "request": "an instance that is small but not circle and vivid_violet is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "square",
+        "colour": "red",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": false,
+      "targeted_rule": "None",
+      "random_examples_needed": null
+    },
+    {
+      "category": "orange triangle",
+      "repeat": 1,
+      "request": "an instance that is small and vivid_orange but not triangle is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "orange",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": true,
+      "targeted_rule": "triangle(?X0) \u2227 vivid_orange(?X0) \u2192 c91cf281atror(?X0)",
+      "random_examples_needed": null
+    },
+    {
+      "category": "cyan square",
+      "repeat": 1,
+      "request": "an instance that is small but not square and vivid_cyan is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "red",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": false,
+      "targeted_rule": "None",
+      "random_examples_needed": null
+    },
+    {
+      "category": "red triangle",
+      "repeat": 1,
+      "request": "an instance that is small and vivid_red but not triangle is accepted by one hypothesis and refused by the other",
+      "targeted_example": {
+        "shape": "circle",
+        "colour": "red",
+        "band": "small",
+        "labelled": "negative"
+      },
+      "targeted_determined": true,
+      "targeted_rule": "triangle(?X0) \u2227 vivid_red(?X0) \u2192 c91cf281atrre(?X0)",
+      "random_examples_needed": null
+    }
+  ],
+  "policies": {
+    "first_fire": {
+      "named": 122,
+      "correct_names": 96,
+      "false_names": 26,
+      "abstained": 166,
+      "missed": 0
+    },
+    "determined_only": {
+      "named": 48,
+      "correct_names": 48,
+      "false_names": 0,
+      "abstained": 240,
+      "missed": 48
+    },
+    "unanimity_live": {
+      "named": 70,
+      "correct_names": 70,
+      "false_names": 0,
+      "abstained": 218,
+      "missed": 26
+    }
+  },
+  "summary": {
+    "by_arm": {
+      "accidental": {
+        "categories": 16,
+        "undetermined": 16,
+        "mean_hypotheses": 2.0
+      },
+      "clean": {
+        "categories": 16,
+        "undetermined": 0,
+        "mean_hypotheses": 1.0
+      }
+    },
+    "policies": {
+      "first_fire": {
+        "named": 122,
+        "correct_names": 96,
+        "false_names": 26,
+        "abstained": 166,
+        "missed": 0
+      },
+      "determined_only": {
+        "named": 48,
+        "correct_names": 48,
+        "false_names": 0,
+        "abstained": 240,
+        "missed": 48
+      },
+      "unanimity_live": {
+        "named": 70,
+        "correct_names": 70,
+        "false_names": 0,
+        "abstained": 218,
+        "missed": 26
+      }
+    },
+    "resolution": {
+      "undetermined_cases": 16,
+      "resolved_by_requested_example": 6,
+      "random_resolved_within_3": 0,
+      "random_examples_needed_mean": 0.0
+    },
+    "images": 416,
+    "wall_clock_s": 653.9
+  },
+  "run_at": "2026-09-17T22:34:55.398035+00:00"
+}

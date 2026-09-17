@@ -1,0 +1,72 @@
+{
+  "experiment": "PERCEIVE-EVAL",
+  "run_at": "2026-09-17T22:19:22.934401+00:00",
+  "categories": [
+    "redcircle",
+    "bluesquare",
+    "greentri"
+  ],
+  "induced_rules": {
+    "redcircle": "circle(?X0) \u2227 vivid_red(?X0) \u2192 redcircle0cbce4(?X0)",
+    "bluesquare": "square(?X0) \u2227 vivid_blue(?X0) \u2192 bluesquare0cbce4(?X0)",
+    "greentri": "triangle(?X0) \u2227 vivid_green(?X0) \u2192 greentri0cbce4(?X0)"
+  },
+  "per_category": {
+    "redcircle": {
+      "recall": 1.0,
+      "abstention": 1.0,
+      "hallucinations": 0,
+      "n_pos": 3,
+      "n_neg": 4
+    },
+    "bluesquare": {
+      "recall": 1.0,
+      "abstention": 1.0,
+      "hallucinations": 0,
+      "n_pos": 3,
+      "n_neg": 3
+    },
+    "greentri": {
+      "recall": 1.0,
+      "abstention": 1.0,
+      "hallucinations": 0,
+      "n_pos": 3,
+      "n_neg": 3
+    }
+  },
+  "per_category_ablated": {
+    "redcircle": {
+      "recall": 0.0,
+      "abstention": 1.0,
+      "hallucinations": 0,
+      "n_pos": 3,
+      "n_neg": 4
+    },
+    "bluesquare": {
+      "recall": 0.0,
+      "abstention": 1.0,
+      "hallucinations": 0,
+      "n_pos": 3,
+      "n_neg": 3
+    },
+    "greentri": {
+      "recall": 0.0,
+      "abstention": 1.0,
+      "hallucinations": 0,
+      "n_pos": 3,
+      "n_neg": 3
+    }
+  },
+  "overall": {
+    "perception_shape_accuracy": 1.0,
+    "perception_color_accuracy": 1.0,
+    "mean_naming_recall": 1.0,
+    "mean_abstention": 1.0,
+    "total_hallucinations": 0,
+    "ablated_mean_naming_recall": 0.0,
+    "ablated_mean_abstention": 1.0,
+    "ablated_total_hallucinations": 0,
+    "model_calls": 0,
+    "images": 31
+  }
+}
