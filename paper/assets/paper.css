@@ -330,9 +330,34 @@ a.cite:hover { text-decoration: underline; }
        column in print shortens that unit by about half an inch, which is often
        the difference between fitting and jumping. The labels scale with the
        drawing, so nothing is cropped. */
-    /* Figures are drawn at full column width: shrinking them shrinks their
-       labels, and a chart whose axis text cannot be read is worse than a page
-       with space at the foot of it. */
+    /* A figure travels whole, and a heading is held to what follows it, so a
+       heading plus a full-height chart is a single tall block that jumps to the
+       next page and leaves a large gap behind. The chart is therefore drawn at
+       68% in print AND its own text is enlarged by the same proportion, so the
+       block loses about three quarters of an inch of height while its labels
+       come out the same size on paper as before. */
+    figure .canvas svg,
+    figure .canvas svg.chart,
+    figure.chart svg,
+    figure > svg {
+        width: 68% !important;
+        height: auto !important;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .chart text,
+    .chart .tick,
+    .chart .axis-label,
+    .chart .val,
+    .chart .lbl,
+    .chart .cap,
+    svg .lbl,
+    svg .val,
+    svg text {
+        font-size: 16px !important;
+    }
 
 
 
