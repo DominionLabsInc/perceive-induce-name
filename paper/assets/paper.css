@@ -295,6 +295,69 @@ a.cite:hover { text-decoration: underline; }
         break-inside: avoid;
     }
 
+    /* A figure is kept whole, so one taller than the space left on a page moves
+       to the next page and leaves a hole behind it. The drawing itself is left
+       at full column width, because shrinking it shrinks the labels with it;
+       the space AROUND figures and sections is tightened instead, which is what
+       decides whether the next block fits. */
+    figure, figure.chart {
+        margin: 1rem 0;
+    }
+
+    figure.chart {
+        padding: 0.55em 0.7em 0.4em;
+    }
+
+    .canvas {
+        margin: 0.2rem 0;
+    }
+
+    .chart-title {
+        margin-bottom: 0.2rem;
+    }
+
+    section {
+        margin-top: 1.2rem;
+    }
+
+    figcaption, figure .cap, .tbl caption {
+        margin-top: 0.45em;
+    }
+
+    /* A heading is kept with the block that follows it, so a heading plus a
+       full-width chart travels as one tall unit and jumps to the next page
+       together, leaving a large gap behind. Drawing the chart at 88% of the
+       column in print shortens that unit by about half an inch, which is often
+       the difference between fitting and jumping. The labels scale with the
+       drawing, so nothing is cropped. */
+    /* Figures are drawn at full column width: shrinking them shrinks their
+       labels, and a chart whose axis text cannot be read is worse than a page
+       with space at the foot of it. */
+
+
+
+    figcaption,
+    .tbl caption {
+        page-break-before: avoid;
+        break-before: avoid;
+    }
+
+    .tbl, .data-wrap, table.data {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    p, li {
+        orphans: 2;
+        widows: 2;
+    }
+
+    /* References and appendices start their own page. */
+    #refs, #appa {
+        page-break-before: always;
+        break-before: page;
+    }
+
     @page {
         margin: 18mm 16mm;
     }
