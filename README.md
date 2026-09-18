@@ -5,8 +5,8 @@ learns to name it, and it abstains when it has not.**
 
 Stefan Ragland, Dominion Labs Research & Development. Published 8 September 2026.
 
-- Paper: <https://dmnlabs.org/research/perceive-induce-name/>
-- Paper (offline copy): [`paper/perceive-induce-name.html`](paper/perceive-induce-name.html)
+- Paper (PDF): [`paper/perceive-induce-name.pdf`](paper/perceive-induce-name.pdf)
+- Paper (web): <https://dmnlabs.org/research/perceive-induce-name/>
 - Contact: research@dmnlabs.org
 
 This repository carries the paper and the measurements behind every number in it. The studies were run
