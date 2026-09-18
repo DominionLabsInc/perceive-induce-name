@@ -1,4 +1,4 @@
-/* Dominion Labs research paper stylesheet (theme-aware, self-contained).
+/* Dominion Labs — research paper stylesheet (theme-aware, self-contained).
    Used by the hosted research papers under /research/. Charts are inline SVG
    styled through these tokens so they read in both light and dark. */
 
@@ -300,66 +300,115 @@ a.cite:hover { text-decoration: underline; }
        at full column width, because shrinking it shrinks the labels with it;
        the space AROUND figures and sections is tightened instead, which is what
        decides whether the next block fits. */
-    figure, figure.chart {
-        margin: 1rem 0;
+    body figure, body figure.chart {
+        margin: 0.85rem 0;
     }
 
-    figure.chart {
+    body figure.chart {
         padding: 0.55em 0.7em 0.4em;
     }
 
-    .canvas {
+    body .canvas {
         margin: 0.2rem 0;
     }
 
-    .chart-title {
+    body .chart-title {
         margin-bottom: 0.2rem;
     }
 
-    section {
-        margin-top: 1.2rem;
+    body section {
+        margin-top: 0.9rem;
     }
 
-    figcaption, figure .cap, .tbl caption {
+    body h2 {
+        margin: 1rem 0 0.35rem;
+    }
+
+    body h3 {
+        margin: 0.85rem 0 0.3rem;
+    }
+
+    body figcaption, body figure .cap, body .tbl caption {
         margin-top: 0.45em;
     }
 
-    /* A heading is kept with the block that follows it, so a heading plus a
-       full-width chart travels as one tall unit and jumps to the next page
-       together, leaving a large gap behind. Drawing the chart at 88% of the
-       column in print shortens that unit by about half an inch, which is often
-       the difference between fitting and jumping. The labels scale with the
-       drawing, so nothing is cropped. */
-    /* A figure travels whole, and a heading is held to what follows it, so a
-       heading plus a full-height chart is a single tall block that jumps to the
-       next page and leaves a large gap behind. The chart is therefore drawn at
-       68% in print AND its own text is enlarged by the same proportion, so the
-       block loses about three quarters of an inch of height while its labels
-       come out the same size on paper as before. */
-    figure .canvas svg,
-    figure .canvas svg.chart,
-    figure.chart svg,
-    figure > svg {
-        width: 68% !important;
-        height: auto !important;
-        margin-left: auto;
-        margin-right: auto;
+    /* The drawing is left at full column width. A font-size inside an SVG
+       viewBox is in user units, so scaling the drawing down scales its labels
+       down with it; the tick and axis text is enlarged slightly instead, which
+       prints larger without changing the figure's height. */
+    body figure .canvas svg,
+    body figure .canvas svg.chart,
+    body figure.chart svg,
+    body figure > svg {
+        width: 100%;
+        height: auto;
         display: block;
     }
 
-    .chart text,
-    .chart .tick,
-    .chart .axis-label,
-    .chart .val,
-    .chart .lbl,
-    .chart .cap,
-    svg .lbl,
-    svg .val,
-    svg text {
-        font-size: 16px !important;
+    body .chart .tick,
+    body .chart .axis-label {
+        font-size: 13px;
     }
 
+    /* A figure carrying "fit" is set narrower so it clears the space left on a
+       page, the way a journal figure is scaled to its column. A font-size inside
+       a viewBox is in user units, so the label size is raised by the same factor
+       the drawing is reduced by and the labels print at the size they had. */
+    body figure.fit .canvas svg.chart,
+    body figure.fit .canvas svg,
+    body figure.fit svg.chart,
+    body figure.fit svg {
+        width: 78%;
+        margin: 0 auto;
+    }
 
+    body figure.fit .chart .tick,
+    body figure.fit .chart .axis-label {
+        font-size: 14px;
+    }
+
+    body figure.fit .chart .lbl,
+    body figure.fit .chart .val {
+        font-size: 15px;
+    }
+
+    body figure.fit .chart .cap {
+        font-size: 16px;
+    }
+
+    body figure.fit .chart-title {
+        width: 78%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body figure.fit-sm .canvas svg.chart,
+    body figure.fit-sm .canvas svg,
+    body figure.fit-sm svg.chart,
+    body figure.fit-sm svg {
+        width: 63%;
+        margin: 0 auto;
+    }
+
+    body figure.fit-sm .chart .tick,
+    body figure.fit-sm .chart .axis-label {
+        font-size: 17px;
+    }
+
+    body figure.fit-sm .chart .lbl,
+    body figure.fit-sm .chart .val {
+        font-size: 19px;
+    }
+
+    body figure.fit-sm .chart .cap {
+        font-size: 20px;
+    }
+
+    body figure.fit-sm .chart-title {
+        width: 63%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     figcaption,
     .tbl caption {
@@ -372,9 +421,49 @@ a.cite:hover { text-decoration: underline; }
         break-inside: avoid;
     }
 
+    /* Print density: the screen's generous table leading is what pushes a table
+       past the space left on a page, and a table travels whole. */
+    body .tbl, body .data-wrap {
+        margin: 0.7rem auto;
+    }
+
+    body th, body td {
+        padding: 0.22rem 0.8rem;
+    }
+
+    body table caption {
+        margin-top: 0.4rem;
+    }
+
     p, li {
         orphans: 2;
         widows: 2;
+    }
+
+    /* The screen's paragraph separation is a little over half a line; on paper
+       it is set slightly closer, which is what keeps a paragraph's last lines
+       from spilling onto a page of their own. */
+    body p {
+        margin: 0.6rem 0;
+    }
+
+    /* Slightly closer leading on paper than on screen: 11pt at 1.58 is still
+       generous, and it is what keeps a paragraph's tail off a page of its own. */
+    body {
+        line-height: 1.58;
+    }
+
+    /* The reference list and the closing note are set a little closer on paper,
+       so a long list does not push its colophon onto a page of its own. */
+    body ol.refs li {
+        margin: 0.34rem 0;
+    }
+
+    body .foot,
+    body .footer-note {
+        margin-top: 1.2rem;
+        page-break-before: avoid;
+        break-before: avoid;
     }
 
     /* References and appendices start their own page. */
